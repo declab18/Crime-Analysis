@@ -1,0 +1,142 @@
+
+> setwd("D:/MSc-Assignment/Answers/Task-3/output/Month of Higher Crime in Each Division")
+> data <- read.csv("Bambalapitiya.csv")
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Bambalapitiya.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Bambalapitiya")
+> dev.off()
+null device 
+          1 
+>  
+> data <- read.csv("Borella.csv")
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Borella.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Borella")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Cinemon.csv")
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Cinemon.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Cinemon")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("ColomboPort.csv")
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "ColomboPort.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Colombo Port")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Dematagoda.csv")
+> H <- (data$Value)
+> M <- (data$layer)
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Dematagoda")
+> data <- read.csv("Dematagoda.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Dematagoda.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Dematagoda")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Grandpass.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Grandpass.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Grandpass")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("HultsDorf.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "HultsDorf.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Hults Dorf")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Kollupiyiya.csv") 
+Error in file(file, "rt") : cannot open the connection
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'Kollupiyiya.csv': No such file or directory
+> data <- read.csv("Kollupitiya.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Kollupitiya.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Kollupitiya")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Kotahena.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Kotahena.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Kotahena")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Maradana.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Maradana.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Maradana")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Mattakkuliya.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Mattakkuliya.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Mattakuliya")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Narahenpita.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Narahenpita.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Narahenpita")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Pettah.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Pettah.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Pettah")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("SlaveIsland.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "SlaveIsland.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Slave Island")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Wellawatta.csv") 
+> data <- read.csv("SlaveIsland.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "SlaveIsland.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Slave Island")
+> dev.off()
+null device 
+          1 
+> data <- read.csv("Wellawatta.csv") 
+> H <- (data$Value)
+> M <- (data$layer)
+> png(file = "Wellawatta.png")
+> barplot(H,names.arg=M,xlab="Month",ylab="Number of Crimes",col="green",main="Month of Higher Crime in Wellawatta")
+> dev.off()
+null device 
+          1 
+> 

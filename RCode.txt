@@ -1,0 +1,11 @@
+
+setwd("D:/MSc-Assignment/Answers/Task-3/output/Most Occuring Crime in Each Division")
+data <- read.csv("Bambalapitiya.csv")
+H <- (data$Value)
+M <- (data$Type)
+png(file = "Bambalapitiya.png")
+barplot(H,names.arg=M,xlab="Crime Type",ylab="Number of Crimes",col="green",main="Most Occuring Crime in Bambalapitiya")
+dev.off()
+
+
+ 

@@ -1,0 +1,14 @@
+
+setwd("D:/MSc-Assignment/Answers/Task-3/output/4-Drug occurrence mostly occuring area")
+x=42
+y=11
+z=42-11
+z
+r <- c(11,31)
+labels <- c("150m Clossest To Schools Areas","Away From School Areas")
+piepercent<- round(100*r/sum(r), 1)
+png(file = "Drugs Crime Percentages.jpg")
+pie(r, labels = piepercent, main = "Drugs Crime Percentages Chart",col = rainbow(length(r)))
+legend("topright", c("150m Clossest To Schools Areas","Away From School Areas"), cex = 0.8,fill = rainbow(length(r)))
+dev.off()
+
